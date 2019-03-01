@@ -1,0 +1,77 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.topBox {
+    width: 95%;
+    height: 200px;
+    border: solid black;
+    margin: 20px auto;
+}
+
+.purple {
+    width: 5%;
+    height: 70%;
+    background: purple;
+    float: left;
+    position: relative;
+    top: 25%;
+    left: 1%;
+}
+
+.green {
+    width: 40%;
+    height: 90%;
+    background: green;
+    position: relative;
+    float: left;
+    top: 5%;
+    left: 5%;
+}
+
+.blue {
+    width: 20%;
+    height: 90%;
+    border-radius: 50%;
+    background: lightblue;
+    position: relative;
+    float: left;
+    top: 5%;
+    left: 15%;
+}
+
+.middleBox {
+    width: 95%;
+    height: 200px;
+    border: solid black;
+    margin: 20px auto;
+    border: dotted black;
+}
+
+.shadowBox {
+    background: lightgoldenrodyellow;
+    box-shadow: 5px 5px 5px black;
+    width: 90%;
+    height: 150px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.lowBox {
+    width: 95%;
+    height: 400px;
+    margin: 20px auto;
+}
+
+.friendsBox {
+    width: 70%;
+    height: 90%;
+    box-shadow: 5px 5px 5px gray;
+    border: solid black 1px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 300%;
+    margin: 0 auto;
+    padding: 100px;
+}

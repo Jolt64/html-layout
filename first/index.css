@@ -1,0 +1,31 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgray;
+    margin: none;
+}
+
+
+header {
+    width: 100%;
+    height: 150px;
+    background: gray;
+    margin: none;
+}
+
+.body {
+    width: 80%;
+    height: 700px;
+    background: white;
+    margin: 0 auto;
+}
+
+.foot {
+    width: 80%;
+    height: 100px;
+    background: black;
+    margin: 0 auto;
+}

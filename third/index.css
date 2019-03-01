@@ -1,0 +1,72 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    height: 14vh;
+    width: 100vw;
+    background: lightgray;
+}
+
+.userImg {
+    height: 10vh;
+    width: 10vh;
+    background: rgb(59, 117, 243);
+    position: relative;
+    top: 15%;
+    left: 3%;
+
+}
+
+main {
+    height: 30vh;
+    width: 100vw;
+    background: white;
+    overflow: auto;
+}
+
+.postText {
+    padding: 5vh;
+    text-align: center;
+    height: 30vh;
+    width: 100vw;
+  
+}
+
+footer {
+    height: 56vh;
+    width: 100vw;
+    background: lightgray;
+}
+
+.blue {
+    height: 25%;
+    width: 100%;
+    background: rgb(59, 117, 243);
+}
+
+.green {
+    height: 25%;
+    width: 100%;
+    background: rgb(14, 194, 14);
+}
+
+.ugly {
+    height: 25%;
+    width: 100%;
+    background: rgb(110, 179, 104);
+}
+
+.yellow {
+    height: 25%;
+    width: 100%;
+    background: rgb(201, 236, 72);
+}
+
